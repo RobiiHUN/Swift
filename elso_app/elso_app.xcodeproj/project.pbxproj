@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDDB08E52C0CA3180009BEC3 /* elso_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB08E42C0CA3180009BEC3 /* elso_appApp.swift */; };
+		DDDB08E72C0CA3180009BEC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB08E62C0CA3180009BEC3 /* ContentView.swift */; };
+		DDDB08E92C0CA33B0009BEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDB08E82C0CA33B0009BEC3 /* Assets.xcassets */; };
+		DDDB08EC2C0CA33B0009BEC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDB08EB2C0CA33B0009BEC3 /* Preview Assets.xcassets */; };
+		DDDB08F62C0CA33C0009BEC3 /* elso_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB08F52C0CA33C0009BEC3 /* elso_appTests.swift */; };
+		DDDB09002C0CA33C0009BEC3 /* elso_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB08FF2C0CA33C0009BEC3 /* elso_appUITests.swift */; };
+		DDDB09022C0CA33C0009BEC3 /* elso_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB09012C0CA33C0009BEC3 /* elso_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDDB08F22C0CA33C0009BEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDB08D92C0CA3180009BEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDB08E02C0CA3180009BEC3;
+			remoteInfo = elso_app;
+		};
+		DDDB08FC2C0CA33C0009BEC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDDB08D92C0CA3180009BEC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDB08E02C0CA3180009BEC3;
+			remoteInfo = elso_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDDB08E12C0CA3180009BEC3 /* elso_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elso_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDB08E42C0CA3180009BEC3 /* elso_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elso_appApp.swift; sourceTree = "<group>"; };
+		DDDB08E62C0CA3180009BEC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDDB08E82C0CA33B0009BEC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDDB08EB2C0CA33B0009BEC3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDDB08F12C0CA33C0009BEC3 /* elso_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elso_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDB08F52C0CA33C0009BEC3 /* elso_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elso_appTests.swift; sourceTree = "<group>"; };
+		DDDB08FB2C0CA33C0009BEC3 /* elso_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = elso_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDDB08FF2C0CA33C0009BEC3 /* elso_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elso_appUITests.swift; sourceTree = "<group>"; };
+		DDDB09012C0CA33C0009BEC3 /* elso_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elso_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDDB08DE2C0CA3180009BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB08EE2C0CA33C0009BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB08F82C0CA33C0009BEC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDDB08D82C0CA3180009BEC3 = {
+			isa = PBXGroup;
+			children = (
+				DDDB08E32C0CA3180009BEC3 /* elso_app */,
+				DDDB08F42C0CA33C0009BEC3 /* elso_appTests */,
+				DDDB08FE2C0CA33C0009BEC3 /* elso_appUITests */,
+				DDDB08E22C0CA3180009BEC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDDB08E22C0CA3180009BEC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB08E12C0CA3180009BEC3 /* elso_app.app */,
+				DDDB08F12C0CA33C0009BEC3 /* elso_appTests.xctest */,
+				DDDB08FB2C0CA33C0009BEC3 /* elso_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDDB08E32C0CA3180009BEC3 /* elso_app */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB08E42C0CA3180009BEC3 /* elso_appApp.swift */,
+				DDDB08E62C0CA3180009BEC3 /* ContentView.swift */,
+				DDDB08E82C0CA33B0009BEC3 /* Assets.xcassets */,
+				DDDB08EA2C0CA33B0009BEC3 /* Preview Content */,
+			);
+			path = elso_app;
+			sourceTree = "<group>";
+		};
+		DDDB08EA2C0CA33B0009BEC3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB08EB2C0CA33B0009BEC3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDDB08F42C0CA33C0009BEC3 /* elso_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB08F52C0CA33C0009BEC3 /* elso_appTests.swift */,
+			);
+			path = elso_appTests;
+			sourceTree = "<group>";
+		};
+		DDDB08FE2C0CA33C0009BEC3 /* elso_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDDB08FF2C0CA33C0009BEC3 /* elso_appUITests.swift */,
+				DDDB09012C0CA33C0009BEC3 /* elso_appUITestsLaunchTests.swift */,
+			);
+			path = elso_appUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDDB08E02C0CA3180009BEC3 /* elso_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDB09052C0CA33C0009BEC3 /* Build configuration list for PBXNativeTarget "elso_app" */;
+			buildPhases = (
+				DDDB08DD2C0CA3180009BEC3 /* Sources */,
+				DDDB08DE2C0CA3180009BEC3 /* Frameworks */,
+				DDDB08DF2C0CA3180009BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = elso_app;
+			productName = elso_app;
+			productReference = DDDB08E12C0CA3180009BEC3 /* elso_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDDB08F02C0CA33C0009BEC3 /* elso_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDB09082C0CA33C0009BEC3 /* Build configuration list for PBXNativeTarget "elso_appTests" */;
+			buildPhases = (
+				DDDB08ED2C0CA33C0009BEC3 /* Sources */,
+				DDDB08EE2C0CA33C0009BEC3 /* Frameworks */,
+				DDDB08EF2C0CA33C0009BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDB08F32C0CA33C0009BEC3 /* PBXTargetDependency */,
+			);
+			name = elso_appTests;
+			productName = elso_appTests;
+			productReference = DDDB08F12C0CA33C0009BEC3 /* elso_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDDB08FA2C0CA33C0009BEC3 /* elso_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDB090B2C0CA33C0009BEC3 /* Build configuration list for PBXNativeTarget "elso_appUITests" */;
+			buildPhases = (
+				DDDB08F72C0CA33C0009BEC3 /* Sources */,
+				DDDB08F82C0CA33C0009BEC3 /* Frameworks */,
+				DDDB08F92C0CA33C0009BEC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDDB08FD2C0CA33C0009BEC3 /* PBXTargetDependency */,
+			);
+			name = elso_appUITests;
+			productName = elso_appUITests;
+			productReference = DDDB08FB2C0CA33C0009BEC3 /* elso_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDDB08D92C0CA3180009BEC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DDDB08E02C0CA3180009BEC3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DDDB08F02C0CA33C0009BEC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDDB08E02C0CA3180009BEC3;
+					};
+					DDDB08FA2C0CA33C0009BEC3 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDDB08E02C0CA3180009BEC3;
+					};
+				};
+			};
+			buildConfigurationList = DDDB08DC2C0CA3180009BEC3 /* Build configuration list for PBXProject "elso_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDDB08D82C0CA3180009BEC3;
+			productRefGroup = DDDB08E22C0CA3180009BEC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDDB08E02C0CA3180009BEC3 /* elso_app */,
+				DDDB08F02C0CA33C0009BEC3 /* elso_appTests */,
+				DDDB08FA2C0CA33C0009BEC3 /* elso_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDDB08DF2C0CA3180009BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB08EC2C0CA33B0009BEC3 /* Preview Assets.xcassets in Resources */,
+				DDDB08E92C0CA33B0009BEC3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB08EF2C0CA33C0009BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB08F92C0CA33C0009BEC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDDB08DD2C0CA3180009BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB08E72C0CA3180009BEC3 /* ContentView.swift in Sources */,
+				DDDB08E52C0CA3180009BEC3 /* elso_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB08ED2C0CA33C0009BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB08F62C0CA33C0009BEC3 /* elso_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDDB08F72C0CA33C0009BEC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDDB09022C0CA33C0009BEC3 /* elso_appUITestsLaunchTests.swift in Sources */,
+				DDDB09002C0CA33C0009BEC3 /* elso_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDDB08F32C0CA33C0009BEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDB08E02C0CA3180009BEC3 /* elso_app */;
+			targetProxy = DDDB08F22C0CA33C0009BEC3 /* PBXContainerItemProxy */;
+		};
+		DDDB08FD2C0CA33C0009BEC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDDB08E02C0CA3180009BEC3 /* elso_app */;
+			targetProxy = DDDB08FC2C0CA33C0009BEC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDDB09032C0CA33C0009BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDDB09042C0CA33C0009BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDDB09062C0CA33C0009BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"elso_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.elso-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDDB09072C0CA33C0009BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"elso_app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.elso-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DDDB09092C0CA33C0009BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.elso-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elso_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/elso_app";
+			};
+			name = Debug;
+		};
+		DDDB090A2C0CA33C0009BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.elso-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/elso_app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/elso_app";
+			};
+			name = Release;
+		};
+		DDDB090C2C0CA33C0009BEC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.elso-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = elso_app;
+			};
+			name = Debug;
+		};
+		DDDB090D2C0CA33C0009BEC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ed.elso-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = elso_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDB08DC2C0CA3180009BEC3 /* Build configuration list for PBXProject "elso_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDB09032C0CA33C0009BEC3 /* Debug */,
+				DDDB09042C0CA33C0009BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDB09052C0CA33C0009BEC3 /* Build configuration list for PBXNativeTarget "elso_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDB09062C0CA33C0009BEC3 /* Debug */,
+				DDDB09072C0CA33C0009BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDB09082C0CA33C0009BEC3 /* Build configuration list for PBXNativeTarget "elso_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDB09092C0CA33C0009BEC3 /* Debug */,
+				DDDB090A2C0CA33C0009BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDDB090B2C0CA33C0009BEC3 /* Build configuration list for PBXNativeTarget "elso_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDDB090C2C0CA33C0009BEC3 /* Debug */,
+				DDDB090D2C0CA33C0009BEC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDDB08D92C0CA3180009BEC3 /* Project object */;
+}
