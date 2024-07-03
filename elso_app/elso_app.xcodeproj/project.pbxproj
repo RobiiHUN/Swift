@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDB4FF432C0CECDE0080DCB8 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB4FF422C0CECDE0080DCB8 /* Text.swift */; };
 		DDDB08E52C0CA3180009BEC3 /* elso_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB08E42C0CA3180009BEC3 /* elso_appApp.swift */; };
 		DDDB08E72C0CA3180009BEC3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDB08E62C0CA3180009BEC3 /* ContentView.swift */; };
 		DDDB08E92C0CA33B0009BEC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDB08E82C0CA33B0009BEC3 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DDB4FF422C0CECDE0080DCB8 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		DDDB08E12C0CA3180009BEC3 /* elso_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = elso_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDB08E42C0CA3180009BEC3 /* elso_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = elso_appApp.swift; sourceTree = "<group>"; };
 		DDDB08E62C0CA3180009BEC3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				DDDB08E42C0CA3180009BEC3 /* elso_appApp.swift */,
 				DDDB08E62C0CA3180009BEC3 /* ContentView.swift */,
+				DDB4FF422C0CECDE0080DCB8 /* Text.swift */,
 				DDDB08E82C0CA33B0009BEC3 /* Assets.xcassets */,
 				DDDB08EA2C0CA33B0009BEC3 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDB08E72C0CA3180009BEC3 /* ContentView.swift in Sources */,
+				DDB4FF432C0CECDE0080DCB8 /* Text.swift in Sources */,
 				DDDB08E52C0CA3180009BEC3 /* elso_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +428,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"elso_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = First_app;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -452,6 +457,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"elso_app/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = First_app;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
